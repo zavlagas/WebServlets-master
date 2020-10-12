@@ -1,0 +1,152 @@
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 400vh;
+}
+
+body a{
+    text-decoration: none;
+}
+
+header{
+    overflow: hidden;
+    background-color: black;
+}
+nav li{
+    display: inline;
+}
+header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    height: 150vh;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.login{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#login-msg{
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+}
+
+.btn{
+    padding: 5px 5px;
+    background-color: black;
+    color:white;
+    margin-top: 5px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+.btn-area{
+    position: relative;
+    left: 59px;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+.container h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container form{
+    padding: 5px;
+    text-align: center;
+}
+
+
+.table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.table tr:nth-child(even){
+    background-color: #cccccc;
+}
+.table tbody tr:hover {background-color: #ddd;}
+
+.table th , .table td{ 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table .buttontd{
+    width: 15%;
+}
+
+.form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.form input , .form select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*.form select{
+    width: 100%;
+    padding: 5px;
+}*/
+
+.form .btn{
+    width: 40%;
+}
+
+
+
+
