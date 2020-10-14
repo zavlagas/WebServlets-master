@@ -23,7 +23,6 @@
                 <input class="btn" type="submit" value="Submit">
                 <p id="login-msg">${param.message}</p>
             </form>
-
         </div>
         <jsp:include page="footer.jsp"/>
     </body>
